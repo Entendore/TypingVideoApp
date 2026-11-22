@@ -1,0 +1,59 @@
+{
+ "key": {
+  "ffmpeg": "C:\\ffmpeg\\bin\\ffmpeg.EXE",
+  "version": "8.1-full_build-www.gyan.dev",
+  "cache_version": 1
+ },
+ "ffmpeg_path": "C:\\ffmpeg\\bin\\ffmpeg.EXE",
+ "scanned_at": 1792807522.6412294,
+ "encoders": {
+  "nvenc": {
+   "id": "nvenc",
+   "label": "NVENC (NVIDIA)",
+   "ffmpeg_name": "h264_nvenc",
+   "listed": true,
+   "probed_ok": null,
+   "detail": ""
+  },
+  "qsv": {
+   "id": "qsv",
+   "label": "QSV (Intel)",
+   "ffmpeg_name": "h264_qsv",
+   "listed": true,
+   "probed_ok": null,
+   "detail": ""
+  },
+  "amf": {
+   "id": "amf",
+   "label": "AMF (AMD)",
+   "ffmpeg_name": "h264_amf",
+   "listed": true,
+   "probed_ok": null,
+   "detail": ""
+  },
+  "videotoolbox": {
+   "id": "videotoolbox",
+   "label": "VideoToolbox (macOS)",
+   "ffmpeg_name": "h264_videotoolbox",
+   "listed": false,
+   "probed_ok": null,
+   "detail": ""
+  },
+  "vaapi": {
+   "id": "vaapi",
+   "label": "VAAPI (Linux)",
+   "ffmpeg_name": "h264_vaapi",
+   "listed": true,
+   "probed_ok": null,
+   "detail": ""
+  },
+  "software": {
+   "id": "software",
+   "label": "YouTube Optimised (H.264/AAC)",
+   "ffmpeg_name": "libx264",
+   "listed": true,
+   "probed_ok": null,
+   "detail": ""
+  }
+ }
+}
